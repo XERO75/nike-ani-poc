@@ -1,11 +1,12 @@
 
 import './App.css';
-import WaterWave from "./components/WaterWave"
-
+// import WaterWave from "./components/WaterWave"
+import Campaign from './components/Campaign';
 function App() {
   return (
     <div className="App">
-      <WaterWave></WaterWave>
+      <Campaign></Campaign>
+      {/* <WaterWave></WaterWave> */}
     </div>
   );
 }

@@ -1,0 +1,86 @@
+.campagin {
+  width: 100%;
+  height: 100%;
+  background: #ededed;
+}
+
+.tab {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.s2-slider {
+  padding-top: 280px;
+}
+.s2-swiper-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.s2-swiper-item-desc img {
+  margin-top: 20px;
+  margin: 30px;
+  /* width: 80%; */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.s1-slider {
+  padding-top: 230px;
+}
+
+.s1 {
+  background: url("../assets/images/s1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.s2 {
+  background: url("../assets/images/s2.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.s3 {
+  background: url("../assets/images/s3.jpg");
+  /* background: url("../assets/images/s3-gif.gif"); */
+  background-position: center center;
+  background-size: cover;
+}
+.s3-done {
+  background: url("../assets/images/s3-done.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.blurry-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* filter: blur(2px); */
+  backdrop-filter: blur(2px);
+  transition: filter 0.9s ease, opacity, 0.9s ease-in;
+  /* transition: transform 1s ease-out, opacity 1s ease-out; */
+}
+
+.blurry-image.blurry {
+  filter: blur(0);
+  opacity: 1;
+}

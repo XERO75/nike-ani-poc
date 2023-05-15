@@ -1,5 +1,5 @@
-import React from 'react';
-import './WaterWave.css';
+import React from "react";
+import "./WaterWave.css";
 
 function WaterWave() {
   return (

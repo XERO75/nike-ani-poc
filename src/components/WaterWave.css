@@ -4,16 +4,15 @@
   left: 0;
   width: 100%; /* 宽度设置为 100% */
   height: 100%; /* 高度设置为 100% */
-  background: #000;
   overflow: hidden;
   backface-visibility: hidden;
   transform: translate3d(0, 0, 0);
 }
 
 .fill {
-  animation-name: fillAction;
+  /* animation-name: fillAction; */
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(.2, .6, .8, .4);
+  animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
@@ -24,13 +23,13 @@
   animation-timing-function: linear;
   animation-duration: 0.5s;
   width: 100%;
-  height: 150px;
-  fill: #a8a8a8;
+  height: 850px;
+  fill: #b7f500;
 }
 
 @keyframes fillAction {
   0% {
-    transform: translate(0, 1050px);
+    transform: translate(0, 800px);
   }
   100% {
     transform: translate(0, -5px);
